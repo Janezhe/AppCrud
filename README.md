@@ -32,18 +32,11 @@ app/
 └── gradle.properties                    # Propiedades globales de compilación
 ```
 ## Pantallazos
-### Gastos
-
-| Listado | Crear | Editar | Eliminar |
-|--------|------|--------|----------|
-| Listado | Crear | Editar | Eliminar |
-
 ### Pagos
 
 | Listado | Crear | Editar | Eliminar |
 |--------|------|--------|----------|
-| Listado | Crear | Editar | Editar |
-
+| <img src="screenshots/imagen0.png" width="120"> | <img src="screenshots/imagen1.png" width="120"> | <img src="screenshots/imagen2.png" width="120"> | <img src="screenshots/imagen3.png" width="120"> |
 ## Tecnologías 
 
 1. Kotlin 1.9+
@@ -51,8 +44,6 @@ app/
 3. Material 3 1.2+
 4. Gson 2.10+
 5. Android SDK API 30+
-
----
 
 ## Tarea de investigación: Conceptos Android 
 
