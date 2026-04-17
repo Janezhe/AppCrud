@@ -90,22 +90,33 @@ app/
     </td>
   </tr>
 </table>
-## Tecnologias
-1. Kotlin1.9+
+## Tecnologías 
+
+1. Kotlin 1.9+
 2. Jetpack Compose BOM 2024+
-3. Material 31.2+
-4. Gson2.10+
-5. Android SDKAPI 30+
+3. Material 3 1.2+
+4. Gson 2.10+
+5. Android SDK API 30+
+
+---
+
 ## Tarea de investigación: Conceptos Android 
-### AndroidManifest.xml
-Es el archivo central de configuración de una aplicación Android, donde se declara la información esencial del proyecto, como estilos globales, permisos, servicios.
-### Carpeta res
-Directorio donde se almacenan los recursos de la aplicación, como layouts, imágenes, colores, textos y estilos. 
-### Gson
-Librería que permite convertir datos JSON en objetos Kotlin/Java
-### Clean Architecture
-Modelo que organiza la aplicación en capas independientes: 
-- Presentation: Maneja la interfaz de usuario (UI, Activities, Compose)  
-- Domain: Contiene la lógica de negocio y casos de uso  
+
+### AndroidManifest.xml  
+Es el archivo central de configuración de una aplicación Android, donde se declara la información esencial del proyecto, como componentes, permisos y servicios.
+
+### Carpeta `res`  
+Directorio donde se almacenan los recursos de la aplicación, como layouts, imágenes, colores, textos y estilos.
+
+### Gson  
+Librería que permite convertir datos JSON en objetos Kotlin/Java (serialización y deserialización).
+
+### Clean Architecture  
+Modelo que organiza la aplicación en capas independientes:
+
+- **Presentation:** Maneja la interfaz de usuario (UI, Activities, Compose)  
+- **Domain:** Contiene la lógica de negocio y casos de uso  
+- **Data:** Gestiona el acceso a datos. En este proyecto se utiliza JSON como fuente de datos, procesado mediante Gson  
+- **Infrastructure:** Implementaciones externas y servicios  
 - Data: Gestiona el acceso a datos. En este proyecto se utiliza JSON como fuente de datos, procesado mediante Gson para la serialización y deserialización de la información  
 - Infrastructure: Implementaciones externas y servicios 
