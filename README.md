@@ -32,64 +32,18 @@ app/
 └── gradle.properties                    # Propiedades globales de compilación
 ```
 ## Pantallazos
+### Gastos
 
-<h2>Gastos</h2>
+| Listado | Crear | Editar | Eliminar |
+|--------|------|--------|----------|
+| Listado | Crear | Editar | Eliminar |
 
-<table>
-  <tr>
-    <th>Listado</th>
-    <th>Crear</th>
-    <th>Editar</th>
-    <th>Eliminar</th>
-  </tr>
-  <tr align="center">
-    <td>
-      <img src="assets/listado.png" width="28"><br/>
-      Listado
-    </td>
-    <td>
-      <img src="assets/crear.png" width="28"><br/>
-      Crear
-    </td>
-    <td>
-      <img src="assets/editar.png" width="28"><br/>
-      Editar
-    </td>
-    <td>
-      <img src="assets/eliminar.png" width="28"><br/>
-      Eliminar
-    </td>
-  </tr>
-</table>
+### Pagos
 
-<h2>Pagos</h2>
+| Listado | Crear | Editar | Eliminar |
+|--------|------|--------|----------|
+| Listado | Crear | Editar | Editar |
 
-<table>
-  <tr>
-    <th>Listado</th>
-    <th>Crear</th>
-    <th>Editar</th>
-    <th>Eliminar</th>
-  </tr>
-  <tr align="center">
-    <td>
-      <img src="assets/listado.png" width="28"><br/>
-      Listado
-    </td>
-    <td>
-      <img src="assets/crear.png" width="28"><br/>
-      Crear
-    </td>
-    <td>
-      <img src="assets/editar.png" width="28"><br/>
-      Editar
-    </td>
-    <td>
-      <img src="assets/eliminar.png" width="28"><br/>
-      Eliminar
-    </td>
-  </tr>
-</table>
 ## Tecnologías 
 
 1. Kotlin 1.9+
