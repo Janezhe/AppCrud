@@ -3,7 +3,7 @@ AppCrud es una aplicación Android nativa desarrollada con Jetpack Compose que p
 ## Instalación
 1. Clonar repositorio
 ```bash
-git clone https://github.com/tu-usuario/AppCrud.git
+https://github.com/Janezhe/AppCrud.git
 ```
 2. Abrir en Android Studio
 3. Sincronizar dependencias de Gradle
